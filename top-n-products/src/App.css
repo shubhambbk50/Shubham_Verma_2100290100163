@@ -1,0 +1,30 @@
+.all-products {
+    padding: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .product-details {
+    padding: 20px;
+  }
+  
+  .filter {
+    margin-bottom: 20px;
+  }
+  
+  .filter select {
+    margin-right: 10px;
+  }
+  
